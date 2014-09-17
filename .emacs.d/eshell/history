@@ -1,0 +1,11 @@
+ls
+echo "dd"
+echo ~
+ls
+gcc %0 -o sdf.exe
+gcc %1 -o sdf.exe
+gcc sdf.cpp  -o sdf.exe
+sdiff.exe 
+sdiff.exe 
+gcc sdf.cpp -o sdf.exe
+./sdf.exe 

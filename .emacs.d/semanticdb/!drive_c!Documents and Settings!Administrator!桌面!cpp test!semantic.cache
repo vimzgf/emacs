@@ -1,0 +1,47 @@
+;; Object cpp test/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "cpp test/"
+  :tables (list 
+   (semanticdb-table "tt.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("math.h" include (:system-flag t) nil [20 37])
+            ("logs" function
+               (:arguments 
+                  ( ("num" variable (:type "int") (reparse-symbol arg-sub-list) [48 56]))                  
+                :type "int")
+                nil [39 103])
+            ("check" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [115 121]))                  
+                :type "int")
+                nil [105 497])
+            ("perfect_num" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [516 522])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [523 529]))                  
+                :type "int")
+                nil [500 693])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [705 714])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [715 734]))                  
+                :type "int")
+                nil [696 1126]))          
+    :file "tt.cpp"
+    :pointmax 1133
+    :fsize 1197
+    :lastmodtime '(21193 21234 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_c!Documents and Settings!Administrator!×ÀÃæ!cpp test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
